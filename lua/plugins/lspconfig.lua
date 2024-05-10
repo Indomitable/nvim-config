@@ -233,19 +233,16 @@ return { -- LSP Configuration & Plugins
 			},
 			tsserver = {
 				filetypes = {
-					"javascript",
-					"javascriptreact",
-					"typescript",
-					"typescriptreact",
-					-- "vue",
+					"javascript", "javascriptreact", "typescript", "typescriptreact",
+          -- "vue",
 				},
 				init_options = {
 					plugins = {
-                        {
+            {
 						    name = "@vue/typescript-plugin",
 						    location = "vue-language-server",
 						    languages = { "javascript", "typescript", "vue" },
-                        }
+            }
 					},
 				},
 			},
