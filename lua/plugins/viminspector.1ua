@@ -1,0 +1,7 @@
+return {
+	"puremourning/vimspector",
+	config = function()
+		local vimspector = require("vimspector")
+		vimspector.vimspector_enable_mappings = "HUMAN"
+	end,
+}
