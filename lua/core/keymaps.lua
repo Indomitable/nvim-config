@@ -47,4 +47,4 @@ vim.keymap.set({ "n", "i" }, "<C-S>", "<cmd>:wa<cr>", { desc = "Save all buffers
 
 -- Set Ctrl+q to close current window
 vim.keymap.set({ "n", "i" }, "<C-q>", "<cmd>:q<cr>", { desc = "Quit window" })
-
+vim.keymap.set({ "n", "i" }, "<C-Q>", "<cmd>:qa<cr>", { desc = "Quit all windows" })
